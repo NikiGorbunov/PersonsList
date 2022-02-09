@@ -14,6 +14,10 @@
 		CD69F9D427AD838B00D2F67A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD69F9D227AD838B00D2F67A /* LaunchScreen.storyboard */; };
 		CD69F9E527AD883B00D2F67A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69F9E427AD883B00D2F67A /* Person.swift */; };
 		CD69F9E927ADC35E00D2F67A /* PersonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69F9E827ADC35E00D2F67A /* PersonListViewController.swift */; };
+		CD69F9EC27B3EE4F00D2F67A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69F9EB27B3EE4F00D2F67A /* DataManager.swift */; };
+		CD69F9EE27B4052100D2F67A /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69F9ED27B4052100D2F67A /* SectionTableViewController.swift */; };
+		CD69F9F227B405E900D2F67A /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69F9F127B405E900D2F67A /* PersonDetailsViewController.swift */; };
+		CD69F9F427B406AA00D2F67A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69F9F327B406AA00D2F67A /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		CD69F9D527AD838B00D2F67A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD69F9E427AD883B00D2F67A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		CD69F9E827ADC35E00D2F67A /* PersonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonListViewController.swift; sourceTree = "<group>"; };
+		CD69F9EB27B3EE4F00D2F67A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CD69F9ED27B4052100D2F67A /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
+		CD69F9F127B405E900D2F67A /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		CD69F9F327B406AA00D2F67A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			children = (
 				CD69F9E027AD846B00D2F67A /* ViewControllers */,
 				CD69F9E327AD871B00D2F67A /* Models */,
+				CD69F9EA27B3EE2100D2F67A /* Services */,
 				CD69F9E127AD848100D2F67A /* StoryBoards */,
 				CD69F9DF27AD845B00D2F67A /* Resources */,
 				CD69F9DD27AD844000D2F67A /* App */,
@@ -89,6 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				CD69F9E827ADC35E00D2F67A /* PersonListViewController.swift */,
+				CD69F9ED27B4052100D2F67A /* SectionTableViewController.swift */,
+				CD69F9F127B405E900D2F67A /* PersonDetailsViewController.swift */,
+				CD69F9F327B406AA00D2F67A /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -108,6 +120,14 @@
 				CD69F9E427AD883B00D2F67A /* Person.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CD69F9EA27B3EE2100D2F67A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD69F9EB27B3EE4F00D2F67A /* DataManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,9 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD69F9F227B405E900D2F67A /* PersonDetailsViewController.swift in Sources */,
 				CD69F9C827AD838A00D2F67A /* AppDelegate.swift in Sources */,
+				CD69F9EC27B3EE4F00D2F67A /* DataManager.swift in Sources */,
 				CD69F9E527AD883B00D2F67A /* Person.swift in Sources */,
 				CD69F9CA27AD838A00D2F67A /* SceneDelegate.swift in Sources */,
+				CD69F9EE27B4052100D2F67A /* SectionTableViewController.swift in Sources */,
+				CD69F9F427B406AA00D2F67A /* TabBarViewController.swift in Sources */,
 				CD69F9E927ADC35E00D2F67A /* PersonListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
